@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lightsalmon;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+p span {
+  font-family: "Courier New", monospace;
+}
+
+.instructions {
+  width: 40%;
+  position: relative;
+  float: left;
+}
+
+.instructions p {
+  text-align: left;
+}
+
+.scoreBoard {
+  width: 40%;
+  padding: 2px 0;
+  margin-left: 10%;
+  border: 4px white;
+  background-color: black;
+  color: lightsalmon;
+  position: relative;
+  float: left;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+  display: none;
+  position: relative;
+}

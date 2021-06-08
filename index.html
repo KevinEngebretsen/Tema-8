@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Temaoppgave 8</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <div class="instructions">
+      <h1>Hei og velkommen!</h1>
+      <p>
+        På denne appen vil du kunne test reaksjonseven din, du vil til og med
+        kunne se din beste tid!
+      </p>
+    </div>
+    <div class="scoreBoard">
+      <p>Din High Score: <span id="highScore">0</span>s</p>
+      <p>Din tid: <span id="time">0</span>s</p>
+    </div>
 
+    <div id="box"></div>
+
+    <script src="script.js"></script>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>
