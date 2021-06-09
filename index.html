@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
@@ -16,11 +15,9 @@
   </head>
   <body>
     <div class="instructions">
-      <h1>Hei og velkommen!</h1>
-      <p>
-        På denne appen vil du kunne test reaksjonseven din, du vil til og med
-        kunne se din beste tid!
-      </p>
+      <h1>Velkommen!</h1>
+      <p>Trykk på den fargede knappen og sjekk hvor fort du klarer det!</p>
+      <p>jo fortere du gjør det jo bedere!</p>
     </div>
     <div class="scoreBoard">
       <p>Din High Score: <span id="highScore">0</span>s</p>
@@ -30,7 +27,6 @@
     <div id="box"></div>
 
     <script src="script.js"></script>
-    <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>
 </html>
