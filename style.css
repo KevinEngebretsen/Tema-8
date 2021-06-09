@@ -39,8 +39,8 @@ p span {
   padding: 2px 0;
   margin-left: 10%;
   border: 4px white;
-  background-color: black;
-  color: lightsalmon;
+  background-color: gainsboro;
+  color: black;
   position: relative;
   float: left;
 }

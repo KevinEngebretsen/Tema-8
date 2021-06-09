@@ -32,7 +32,7 @@ function makeBox() {
   if (highScore.length > 0 && reactionTime == highScore[0]) {
     document.getElementById("highScore").style.color = "red";
   } else {
-    document.getElementById("highScore").style.color = "white";
+    document.getElementById("highScore").style.color = "black";
   }
 }
 
