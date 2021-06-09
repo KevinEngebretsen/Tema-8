@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . Reaction test --out=./builds --overwrite -- icon=./icon/logo.icns"
+    "build": "electron_packager . Reaction test --out=./builds --overwrite --icon=./icon/logo.icns"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
